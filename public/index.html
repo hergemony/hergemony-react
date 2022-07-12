@@ -1,43 +1,404 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Fredoka:wght@600&family=Libre+Baskerville&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300&family=Poiret+One&family=Roboto+Slab:wght@100;700&family=Rubik:wght@300;400&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+</head>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+
+<body>
+
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <a href="#top" class="client__logo" title="HERGEMONY">
+          <img src="./images/logoround.PNG" alt="hergemony" class="client__logo"/>
+        </a>
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+
+
+  <header class="header" role="banner" id="top">
+<header style="background-color: black">
+
+  <!-- Add css animation something to do with logo -->
+  <section>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+
+      <h1 class="title">HERGEMONY</h1>
+        <p>Digital Creator</p>
+            <p>
+
+    </p>
+    <p> Hergemony™️ represents the works of Chi Doan. </p>
+      
+    <p> Elegant, feminine and irrevocably 'Her's' </p>
+      <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+<div>
+<a href="https://github.com/hergemony" title="View Source Code" target="_blank">
+
+<!-- ♀️ possbile to add backgroud here-->
+
+</a>
+</div>
+</section>
+
+<section>
+<img src="./images/greenmountains.jpg" class="logo mountain-img" alt="GitHub">
+</section>
+  <main role="main">
+    
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>The Scheduler</h3>
+              <p>
+                Stay organised and on time.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://hergemony.github.io/scheduler/" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://hergemony.github.io/scheduler/" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/scheduler.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Quiz Me Quick</h3>
+              <p>
+                Check how quick you at answering a quiz, while you're at it - turn a frog into a prince!
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://hergemony.github.io/quizmequick/" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://hergemony.github.io/quizmequick/" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/quizmequick.png" class="work__image" alt="Project 2" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Wicked Weather</h3>
+              <p>
+                You no longer need to curse the weather, stay organised and check the weather before you leave home.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://hergemony.github.io/wickedweather" target="_blank"class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://hergemony.github.io/wickedweather" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/wickedweather.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+
+    <div class="work__box">
+      <div class="work__text">
+        <h3>BCKS PROJECT</h3>
+        <p>
+          Group-based Project Numero 1. Working with some talented individuals to call on API's. The result - A web application designed for savvy, smart travellers offering unique tools for use whilst travelling
+          and living abroad. Check it out!
+        </p>
+        <ul class="work__list">
+        </ul>
+
+        <div class="work__links">
+          <a href="https://hergemony.github.io/BCKS-Project" target="_blank" class="link__text">
+            Visit Site <span>&rarr;</span>
+          </a>
+          <a href="https://hergemony.github.io/BCKS-Project/" title="View Source Code" target="_blank">
+            <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+          </a>
+        </div>
+        </div>
+        <div class="work__image-box">
+          <img src="./images/bcksscreenshot.png" class="work__image" alt="Project 4" />
+        </div>
+      </div>
+
+
+    <div class="work__box">
+      <div class="work__text">
+      <h3>Medic Manager</h3>
+      <p>
+      Medic Manager is an interactive system for storage expiry tracking and replacement schedules featuring email reminders and a chatbot.
+      </p>
+      <ul class="work__list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Javascript: Node Js, Express Js, Restful API, Handlebars Js, MySQL, Sequelize, Npm packages including Emailer and Chatbot</li>
+      <li>MVC (Model View Controller) Paradigm</li>
+      <li>Authentication & Heroku Deployment</li>
+      </ul>
+
+    <div class="work__links">
+      <a href="https://desolate-brook-03478.herokuapp.com/" target="_blank"class="link__text">
+        Visit Site <span>&rarr;</span>
+      </a>
+      <a href="https://desolate-brook-03478.herokuapp.com/" title="View Source Code" target="_blank">
+        <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+      </a>
+    </div>
+  </div>
+  <div class="work__image-box">
+    <img src="./images/medicmanagerscreenshotsmall.png" width="500" height="300" class="work__image" alt="Project 5" />
+  </div>
+</div>
+
+
+<div class="work__box">
+  <div class="work__text">
+    <h3>Big Heart Pharmacy</h3>
+    <p>
+      A Pharmacy with a BIG HEART - located in Daejeon, South Korea ₍ ᐢ. ༝ .ᐢ₎ 💙  ૮꒰ ˶• ༝ •˶꒱ა  (Currently Under Construction 🚧)
+    </p>
+    <ul class="work__list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Javascript</li>
+      <li>Node Js</li>
+      <li>Express Js</li>
+      <li>MySQL</li>
+    </ul>
+    <div class="work__links">
+      <a href="https://hergemony.github.io/thebigheartpharmacy/" target="_blank"class="link__text">
+        Visit Site <span>&rarr;</span>
+      </a>
+      <a href="https://hergemony.github.io/thebigheartpharmacy/" title="View Source Code" target="_blank">
+        <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+      </a>
+    </div>
+  </div>
+  <div class="work__image-box">
+    <img src="./images/bigheartpharmacylogo.PNG" width="600" height="400" alt="Project 6" />
+  </div>
+</div>
+
+
+<div class="work__box">
+  <div class="work__text">
+    <h3>Hunter Outsider Cater</h3>
+    <p>
+      The official website of Hunter Outsider Cater. A unique catering service for workplaces, events, gatherings and home. You specify your needs, we cater! (Currently Under Construction 🚧)
+    </p>
+    <ul class="work__list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Javascript</li>
+      <li>Node Js</li>
+      <li>Express Js</li>
+      <li>MySQL</li>
+    </ul>
+    <div class="work__links">
+      <a href="https://hergemony.github.io/theoutsiderhunter/" target="_blank"class="link__text">
+        Visit Site <span>&rarr;</span>
+      </a>
+      <a href="https://hergemony.github.io/theoutsiderhunter/" title="View Source Code" target="_blank">
+        <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+      </a>
+    </div>
+  </div>
+  <div class="work__image-box">
+    <img src="./images/hunteroutsidercater.PNG" width="600" height="400" class="work__image" alt="Project 7" />
+  </div>
+</div>
+
+
+</section>
+
+    <!-- ***** Clients ***** -->
+
+    <section class="client" id="clients">
+      <div class="row">
+        <h2>Clients</h2>
+        <div class="client__logos">
+          <!-- Add logos of the clients or companies you have worked with. -->
+ 
+          <img src="./images/medicmanagerlogosmall.png" class="client__logo" alt="Company 4" />
+          <img src="./images/bigheartpharmacylogo.PNG" class="client__logo" alt="Company 5" />
+          <img src="./images/hunteroutsidercater.PNG" class="client__logo" alt="Company 6" />
+          <img src="./images/C&S.PNG" class="client__logo" alt="Company 2" />
+          <img src="./images/bckslogo.png" class="client__logo" alt="Company 3" />
+          <img src="./images/sustainfarmacia.jpg" class="client__logo" alt="Company 1" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+               <img src="images/chizen.png" style="height:200px; border: 1px solid black;" alt="This is a small profile image of Chi Doan" class="avatar">
+        </div>
+            <p>
+              I am a Web Developer located in Australia.
+              I love to bring together unique designs
+              tailored to suit individuals, groups and large organisations.
+
+              I am persevering and vivacious. A problem solver with avid attention to detail.
+              I am a fan of film, wine, art, travel, literature and languages.
+              My coffee cup is always refilled and my home scattered with 'mountains' of books for creative inspiration.
+
+              I hope to be of help to all that I come across.
+
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="https://www.linkedin.com/in/her-gemony-bbb341235/" target="_blank" class="btn">My Resume</a>
+          </div>
+       
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+        The world is missing out on the next project that you and I can create together.
+        Feel free to email me using the link below and we can talk about all ideas, big and small.
+
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:hergemony@gmail.com" class="btn">hergemony@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Create form using JSON Storage -->
+<section>
+  <h3>Let's collaborate</h3>
+  <form action="https://formspree.io/f/mlezoann" method="POST">
+    <div class="contactinfo"></div>
+    <label for>
+      <span>Name</span>
+      <input type="name" name="username" placeholder="Type your name here">
+    </label>
+    <label for>
+      <span>Email</span>
+      <input type="email" name="email" placeholder="Type your email here">
+    </label>
+    <textarea name="message" placeholder="Tell me what you love"></textarea>
+
+    <input type="hidden" name="_subject" value="New submission!">
+    <input type="hidden" name="_next" value="">
+    <div class="submit-wrap">
+        <!-- create json storage -->
+      <input type="submit" value="Send">
+    </div>
+
+
+  </form>
+
+
+
+
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://twitter.com/hergemony/" title="Link to Twitter Profile" target="_blank">
+            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/hergemony/" title="Link to Github Profile" target="_blank">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/chi-doan-bbb341235/" target="_blank">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <p>
+          ©️2022 Hergemony™️ Digital Services | <a href="https://github.com/hergemony" class="link">Chi Doan </a>.
+      </p>
+      <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=hergemony&repo=Portfolio&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/logo.JPG" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./script.js"></script>
+</body>
 </html>

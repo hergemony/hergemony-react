@@ -1,3 +1,38 @@
+# HERGEMONY PORTFOLIO 🏔️ (Using REACT Technology) ⚛️
+
+![License](https://img.shields.io/badge/License-MIT-blue)
+
+# Table of Contents
+* [Description](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Deployed Link](##DeployedLink)
+* [Screenshot](#Screenshot)
+* [TechStack](#TechStack)
+* [Credits](#Credits)
+* [Questions](#Questions)
+* [Copyright](#Copyright)
+
+
+# Description
+This is the official portfolio of Hergemony™️ using latest #React Technology ⚛️
+
+
+# Installation
+- `Git clone` the repository to your local machine. 
+
+- To use this application, run the following command to install the dependencies:
+
+
+ `npm install`
+
+- Then run the following command:
+
+`npm run start:dev`
+
+
+# Usage
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +103,47 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# DeployedLink
+This application is deployed through Heroku. 
+The link to the deployed application is: https://herokuapp.com/
+
+# Screenshot
+
+![alt text](https://github.com/hergemony/png...?raw=true)
+
+
+# TechStack
+- HTML
+- CSS
+- Javascript
+- NodeJS
+- ExpressJS
+- MongoDB
+- REACT
+
+## Credits
+https://create-react-app.dev/
+
+https://create-react-app.dev/docs/getting-started/
+
+https://www.codespeedy.com/deploy-react-apps-to-github-pages/
+
+https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/
+
+https://www.makeuseof.com/how-to-deploy-react-app-with-github-pages/
+
+
+
+
+
+
+## Questions
+Any questions, please email me at hergemony@gmail.com
+
+
+## Copyright
+©️ 2022 Hergemony™ Digital
+
+**[🔙 back to top](#description)**

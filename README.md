@@ -134,6 +134,7 @@ https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/
 
 https://www.makeuseof.com/how-to-deploy-react-app-with-github-pages/
 
+https://create-react-app.dev/docs/deployment/#github-pages
 
 
 
